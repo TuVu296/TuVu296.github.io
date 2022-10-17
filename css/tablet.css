@@ -1,0 +1,154 @@
+/* Tablet */
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    .banner-content h1 {
+        font-size: 40px;
+    }
+
+    .banner-content span {
+        font-size: 20px;
+    }
+
+    .extend-avatar img {
+        display: none;
+    }
+
+    #nav-bar .container div.extend-avatar {
+        padding: 0 40px;
+        width: 0;
+        border-right: 1px solid #E6E6E6;
+        border-left: 1px solid #E6E6E6;
+    }
+
+    #nav-bar .container a {
+        white-space: nowrap;
+        font-size: 12px;
+        padding: 0 8px;
+    }
+
+    #about .container div {
+        padding: 80px 48px 48px 48px;
+    }
+
+    .mt-40.info li:nth-child(4) {
+        word-break: break-all;
+    }
+
+    #job-info .container {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .experiment {
+        grid-column: 1 / span 1;
+        grid-row: 1 / span 3;
+    }
+    
+    .skill {
+        grid-column: 1 / span 1;
+        grid-row: 4 / span 2;
+    }
+    
+    .language {
+        grid-column: 1 / span 1;
+        grid-row: 6 / span 1;
+    }
+    
+    .activity {
+        grid-column: 2 / span 1;
+        grid-row: 1 / span 2;
+    }
+    
+    .study {
+        grid-column: 2 / span 1;
+        grid-row: 3 / span 2;
+    }
+    
+    .hobby {
+        grid-column: 2 / span 1;
+        grid-row: 5 / span 2;
+    }
+
+
+    .grid-title h1 {
+        font-size: 24px;
+    }
+
+    .grid-title i {
+        transform: scale(2);
+    }
+
+    .icon-detail span {
+        font-size: 13px;
+    }
+
+    .list-hobby {
+        gap: 0;
+        flex-wrap: wrap;
+    }
+    
+    .icon-detail {
+        width: 64px;
+        text-align: center;
+    }
+
+    .certi-item {
+        display: inline-block;
+        min-height: 164px;
+        vertical-align: top;
+        width: calc(48% - 8px); 
+    }
+
+    .certi-item:nth-child(odd) {
+        margin-right: 8px;
+    }
+
+    .certi-item div img {
+        width: 176px;
+    }
+
+    .certi-item div h3 {
+        font-size: 12px;
+    }
+
+    .certi-item div p {
+        font-size: 8px;
+    }
+
+    .no2 { 
+        padding-left: 4px;
+        margin-left: 4px;
+    }
+
+    #project .container-fluid {
+        padding: 20px 8px;
+    } 
+
+    .position {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-detail table tr td:first-child {
+        width: auto;
+    }
+
+    .project-info i {
+        margin: 0 4px;
+    }
+
+    .project-info {
+        gap: 8px;
+    }
+
+    #footer .container ul {
+        font-size: 16px;
+    }
+    
+    .icon-facebook-circled,
+    .icon-linkedin-circled,
+    .icon-github-circled {
+        font-size: 200%;
+    }
+
+}

@@ -1,0 +1,171 @@
+/* style sap xep cac cot */
+.project-charter {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    display: grid;
+    padding: 16px;
+    background-color: blue;
+    gap: 16px;
+    justify-content: space-evenly;
+}
+
+/* .detail {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+        'item1 item2'
+        'item3 item4';
+    gap: 16px;
+} */
+
+.goal,
+.team,
+.scopes,
+.primary,
+.timeline {
+    background-color: #F0F8FF;
+    padding: 8px;
+}
+
+.goal {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.team {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.timeline {
+    grid-column-start: 4;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+
+.scopes {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+
+.primary {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 4;
+    grid-row-end: 6;
+
+}
+
+/* style h1 */
+.detail-head {
+    padding-bottom: 16px;
+    border-bottom: 1px solid #ced6db;
+    color: blue;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* style Goals */
+.target {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #ced6db;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.goal-img {
+    width: 32px;
+    height: 32px;
+    flex: 0 0 auto;
+    margin: 0 34px 0 26px;
+}
+
+.goal-img img {
+    width: 100%;
+}
+
+/* style Team */
+.member {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.member-img {
+    width: 24px;
+    height: 24px;
+    flex: 0 0 auto;
+}
+
+.member-img img {
+    width: 100%;
+}
+
+/*style scope */
+.relative {
+    display: flex;
+    padding-left: 12px;
+    gap: 40px;
+}
+
+.relative h2 {
+    font-size: 24px;
+    margin-bottom: 16px;
+    font-weight: bold;
+}
+
+/* style primary */
+.pri-detail {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+.pri-img {
+    width: 24px;
+    height: 24px;
+    flex: 0 0 auto;
+}
+
+.pri-img img {
+    width: 100%;
+}
+
+/* style timeline */
+.time-pro {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 16px;
+}
+
+.time-img {
+    width: 48px;
+    height: 48px;
+    background-color: #9E88FF;
+    color: #fff;
+    font-size: 24px;
+    display: flex;
+    flex: 0 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 2px solid #000;
+}
+
+.border-dashed {
+    margin: 0;
+    padding-bottom: 4px;
+    border-bottom: 1px dashed #BFE6EC;
+}

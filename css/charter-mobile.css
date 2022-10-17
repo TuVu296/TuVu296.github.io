@@ -1,0 +1,66 @@
+@media screen and (max-width: 575px) {
+    .goal {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .team {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    .timeline {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    
+    .scopes {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    .primary {
+        grid-column-start: 1;
+        grid-column-end: 5;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    
+    }
+
+    .target {
+        flex-direction: column;
+        margin-bottom: 12px;
+    }
+
+    .goal-img {
+        flex-basis: 40px;
+    }
+
+    .relative {
+        flex-direction: column;
+    }
+
+    .time-pro,
+    .pri-detail,
+    .member {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .pri-img,
+    .member-img {
+        align-self: center;
+    }
+
+    .time-pro {
+        align-content: stretch;
+    }
+}
